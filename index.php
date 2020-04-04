@@ -16,4 +16,4 @@ $name = new FirstName();
 $state = new MyState();
 $lga = new myLocalGovernment();
 
-echo $name->name() ." is from " .$lga->localGovernmentName().' in '.$state->StateName()." state. ";
+echo $name->name() .$lga->localGovernmentName() .$state->StateName();

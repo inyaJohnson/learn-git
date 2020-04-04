@@ -16,7 +16,7 @@ class FirstName
 //        die('Johnson');
 //    }
  public  function name() :String{
-    return "Johnson";
+    return "Johnson  is from ";
 }
 
 }
