@@ -9,9 +9,11 @@
 require_once 'app/start.php';
 use Person\Name\FirstName as FirstName;
 use State\Origin\MyState;
+use State\Origin\myLocalGovernment;
 
 
 $name = new FirstName();
 $state = new MyState();
+$lga = new myLocalGovernment();
 
-echo $name->name() ." is from ".$state->StateName();
+echo $name->name() ." is from " .$lga->localGovernmentName().' in '.$state->StateName()." state. ";
