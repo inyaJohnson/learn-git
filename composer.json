@@ -13,7 +13,8 @@
 
     "autoload":{
         "psr-4": {
-            "Person\\": "app/Person/"
+            "Person\\": "app/Person/",
+            "State\\": "app/State"
         }
     }
 }

@@ -8,7 +8,10 @@
 
 require_once 'app/start.php';
 use Person\Name\FirstName as FirstName;
+use State\Origin\MyState;
 
 
 $name = new FirstName();
-return $name;
+$state = new MyState();
+
+echo $name->name() ." is from ".$state->StateName();

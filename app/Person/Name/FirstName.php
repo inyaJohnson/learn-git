@@ -11,8 +11,12 @@ namespace Person\Name;
 
 class FirstName
 {
-    public function __construct()
-    {
-        die('Johnson');
-    }
+//    public function __construct()
+//    {
+//        die('Johnson');
+//    }
+ public  function name() :String{
+    return "Johnson";
+}
+
 }
