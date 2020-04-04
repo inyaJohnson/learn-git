@@ -1,0 +1,20 @@
+{
+    "name": "tujailer/learn-git",
+    "description": "learning git",
+    "authors": [
+        {
+            "name": "inyaJohnson",
+            "email": "intoajohnson@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+
+    "autoload":{
+        "psr-4": {
+            "Person\\": "app/Person/"
+        }
+    }
+}
+
